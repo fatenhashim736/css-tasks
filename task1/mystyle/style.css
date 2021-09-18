@@ -1,0 +1,28 @@
+    /* Valid */
+    
+    ._my-div {}
+    /* Valid */
+    
+    .-my-div {}
+    /* Not Valid */
+    
+    .12mydiv {}
+    /* Not Valid */
+    
+    .% mydiv {}
+    /* Not Valid */
+    
+    .@my-div {}
+    /* Not Valid */
+    
+    .my @div {}
+    /* Valid */
+    
+    ._my87div {}
+    /* Valid */
+    
+    .div {
+        font-size: 50px;
+        border: 5px solid rgb(192, 80, 80);
+        width: fit-content;
+    }
