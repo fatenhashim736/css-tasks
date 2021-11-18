@@ -1,0 +1,12 @@
+.div1 {
+    width: 1250px;
+    height: 35px;
+    padding: 25px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 250px;
+    border-left: 6px solid red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: #70809036;
+}
