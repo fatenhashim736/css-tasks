@@ -1,0 +1,26 @@
+.div1,
+.div2,
+.div3 {
+    display: block;
+    padding: 30px;
+    margin: 25px;
+    width: 400px;
+    height: 400px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div1 {
+    background-color: rgb(195, 138, 248);
+    color: black;
+}
+
+.div2 {
+    background-color: rgb(63, 7, 116);
+    color: white;
+}
+
+.div3 {
+    background-color: rgb(200 182 215);
+    color: white;
+}
