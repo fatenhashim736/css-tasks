@@ -1,0 +1,17 @@
+.div1 {
+    width: auto;
+    height: 50px;
+    padding: 30px;
+    margin-top: 150px;
+    margin-left: 125px;
+    margin-right: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c4ade673;
+    border-left: 8px solid red;
+}
+
+em {
+    color: red;
+    font-size: 25px;
+    font-style: normal;
+}
