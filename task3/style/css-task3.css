@@ -1,0 +1,33 @@
+.div1,
+.div2,
+.div3,
+.div4 {
+    color: black;
+    padding: 25px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(243, 198, 198, 0.8);
+    background-image: url(../image/7.jpg);
+}
+
+.div1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div2 {
+    background-repeat: repeat-y;
+    background-position: right;
+}
+
+.div3 {
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+
+.div4 {
+    background-repeat: repeat-y repeat-x;
+}
