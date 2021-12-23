@@ -1,0 +1,630 @@
+/*  start body style */
+
+* {
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+ ::selection {
+    background-color: darkseagreen;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* start header style */
+
+.header {
+    background-color: rgb(215, 215, 220);
+    color: black;
+    position: relative;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    ;
+}
+
+.header .envelope {
+    margin-left: 70px;
+    padding-left: 10px;
+}
+
+.envelope span {
+    padding-right: 30px;
+}
+
+.header .social {
+    position: absolute;
+    right: 0;
+    margin-right: 70px;
+    padding-right: 10px;
+    margin-top: -39px;
+}
+
+.header .social ul li {
+    display: inline-block;
+    padding: 8px;
+}
+
+.header .social a:hover i {
+    color: #ff869b !important;
+}
+
+
+/* end headr style */
+
+
+/* ----------------------------------------------------------------------- */
+
+
+/* start navbar */
+
+.navbar {
+    background-color: white;
+    position: relative;
+}
+
+.navbar .nav1,
+.nav2,
+.nav3 {
+    padding-top: 0;
+    margin-top: 5px;
+}
+
+.navbar .nav1 {
+    margin-left: 70px;
+    padding-left: 10px;
+}
+
+.navbar .nav1 a {
+    font-size: 40px;
+    color: #ff869b;
+}
+
+.letter1 {
+    font-size: 40px;
+    color: skyblue;
+}
+
+.letter2 {
+    font-size: 40px;
+    color: orangered;
+}
+
+.navbar .nav2 {
+    padding: 10px;
+    margin-right: 60px;
+    margin-top: -60px;
+    padding-right: 250px;
+}
+
+.navbar .nav2 li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+li {
+    float: right;
+}
+
+.navbar .nav2 li a {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.navbar .login {
+    position: absolute;
+    color: #ff869b;
+    right: 0;
+    width: 130px;
+    height: 25px;
+    margin-top: 0;
+    margin-right: 70px;
+    padding: 10px;
+    border: 3px solid #ff869b;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 0;
+    z-index: 1;
+}
+
+
+/* .navbar .nav3 a {
+            color: #ff869b;
+        }
+         */
+
+.navbar .login:hover {
+    background-color: #ff869b;
+    color: black;
+}
+
+.navbar .
+/* endnavbar */
+
+
+/* -------------------------------------------------- */
+
+
+/* start middle */
+
+.middle {
+    position: relative;
+    margin: 20px;
+}
+
+.middle .art {
+    top: 80px;
+    position: absolute;
+    margin-left: 30px;
+    padding-left: 10px;
+    padding-top: 200px;
+}
+
+.middle .art .lorem-ipsum {
+    font-size: 50px;
+    color: #ff869b;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 190px;
+}
+
+.middle .art .art1 {
+    padding-top: 8px;
+    padding-right: 500px;
+    padding-bottom: 10px;
+    text-align: justify;
+    width: 45%;
+    z-index: 1;
+}
+
+.middle .read {
+    position: absolute;
+    color: #ff869b;
+    top: 515px;
+    width: 130px;
+    height: 34px;
+    margin-left: 40px;
+    margin-right: 70px;
+    padding: 10px;
+    border: 3px solid #ff869b;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 5px;
+    z-index: 2;
+}
+
+.middle .read:hover {
+    background-color: #ff869b;
+    color: black;
+}
+
+.middle .art::before {
+    content: "";
+    background-image: url(../images/pc3.png);
+    width: 565px;
+    height: 500px;
+    position: absolute;
+    background-size: cover;
+    left: 710px;
+    top: 20px;
+}
+
+
+/* end middle */
+
+
+/* --------------------------------------------------------- */
+
+
+/* start middle-part2 */
+
+.middle-art2 {
+    position: relative;
+    padding-top: 660px;
+    padding-left: 656px;
+    padding-right: 345px;
+}
+
+.middle-art2 .ipsum {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ff869b;
+    padding-left: 140px;
+}
+
+.middle-art2::after {
+    content: "";
+    background-image: url(../images/search.png);
+    width: 350px;
+    height: 335px;
+    position: absolute;
+    background-size: cover;
+    left: 300px;
+    top: 571px;
+}
+
+
+/* end middle-part2 */
+
+
+/* ---------------------------------------------------------- */
+
+
+/* start services */
+
+.services {
+    left: 500px;
+    position: absolute;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.services .our .ourservices {
+    padding: 25px;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* end services */
+
+
+/* ---------------------------------------------------------- */
+
+
+/* strat services-block */
+
+.services-block {
+    display: inline-flex;
+    position: relative;
+    left: -400px;
+    top: 280px;
+}
+
+.services-block .block1,
+.block2,
+.block3,
+.block4 {
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+}
+
+.services-block .block1,
+.block4 {
+    background-color: #ff869b;
+}
+
+.services-block .block2 {
+    background-color: #000;
+}
+
+.services-block .block3 {
+    background-color: #a2e73f;
+}
+
+.services-block .block2 a,
+.block3 a {
+    color: #ff869b;
+}
+
+.services-block .block1::after {
+    content: "";
+    background-image: url(../images/umbrella3.jpg);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: absolute;
+    left: 90px;
+    top: 30px;
+}
+
+.services-block .block2::after {
+    content: "";
+    background-image: url(../images/umbrella2.jpg);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: absolute;
+    left: 332px;
+    top: 30px;
+}
+
+.services-block .block3::after {
+    content: "";
+    background-image: url(../images/umbrella3.jpg);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: absolute;
+    left: 572px;
+    top: 30px;
+}
+
+.services-block .block4::after {
+    content: "";
+    background-image: url(../images/umbrella2.jpg);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: absolute;
+    left: 810px;
+    top: 30px;
+}
+
+.services-block .block1 a,
+.block2 a,
+.block3 a,
+.block4 a {
+    position: absolute;
+    margin-top: 56px;
+    margin-left: -47px;
+}
+
+
+/* end services-block */
+
+
+/* ---------------------------------------------------------- */
+
+
+/* start project-block */
+
+.project-block {
+    display: inline-block;
+    position: relative;
+    left: -230px;
+    top: 340px;
+}
+
+.project-block .project1,
+.project2,
+.project3,
+.project4 {
+    text-align: center;
+    width: 550px;
+    height: 70px;
+    margin: 40px;
+}
+
+.project-block .project1,
+.project3 {
+    background-color: rgb(57 188 239 / 80%);
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.project-block .project2,
+.project4 {
+    background-color: #ff869b;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.project-block .project1 a,
+.project2 a,
+.project3 a,
+.project4 a {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -47px;
+}
+
+.project-block .project1::after {
+    content: "";
+    background-image: url(../images/hand.jpg);
+    width: 65px;
+    height: 65px;
+    border: 1px solid black;
+    border-radius: 50px;
+    position: absolute;
+    top: 42px;
+    right: 42px;
+    background-size: cover;
+}
+
+.project-block .project1::before {
+    content: "";
+    border: 50px solid;
+    border-color: transparent #e5c1c8 transparent transparent;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -55px;
+    top: 24px;
+    background-size: cover;
+}
+
+.project-block .project1 .arrow1::before {
+    content: "";
+    width: 70px;
+    height: 55px;
+    background-color: #e5c1c8;
+    position: absolute;
+    top: 47px;
+    left: 40px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.project-block .project1 .one {
+    font-size: 45px;
+    font-weight: 100;
+    font-family: fantasy;
+    color: orange;
+    position: absolute;
+    top: 47px;
+    left: 59px;
+}
+
+
+/* ---------------------------- */
+
+.project-block .project3::before {
+    content: "";
+    background-image: url(../images/hand.jpg);
+    width: 65px;
+    height: 65px;
+    border: 1px solid black;
+    border-radius: 50px;
+    position: absolute;
+    top: 262px;
+    right: 42px;
+    background-size: cover;
+}
+
+.project-block .project3::after {
+    content: "";
+    border: 50px solid;
+    border-color: transparent #e5c1c8 transparent transparent;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -55px;
+    top: 245px;
+    background-size: cover;
+}
+
+.project-block .project3 .arrow3::after {
+    content: "";
+    width: 70px;
+    height: 55px;
+    background-color: #e5c1c8;
+    position: absolute;
+    top: 268px;
+    left: 40px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.project-block .project3 .three {
+    font-size: 45px;
+    font-weight: 100;
+    font-family: fantasy;
+    color: orange;
+    position: absolute;
+    top: 270px;
+    left: 59px;
+}
+
+
+/* ---------------------------- */
+
+.project-block .project2::after {
+    content: "";
+    background-image: url(../images/flower.jpg);
+    width: 65px;
+    height: 65px;
+    border: 1px solid black;
+    border-radius: 50px;
+    position: absolute;
+    top: 151px;
+    left: 42px;
+    background-size: cover;
+}
+
+.project-block .project2::before {
+    content: "";
+    border: 50px solid;
+    border-color: transparent transparent transparent #61c9f2;
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: -57px;
+    top: 134px;
+    background-size: cover
+}
+
+.project-block .project2 .arrow2::before {
+    content: "";
+    width: 70px;
+    height: 55px;
+    background-color: #61c9f2;
+    position: absolute;
+    top: 157px;
+    right: 40px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.project-block .project2 .two {
+    font-size: 45px;
+    font-weight: 100;
+    font-family: fantasy;
+    color: orangered;
+    position: absolute;
+    top: 158px;
+    right: 60px;
+}
+
+
+/* ---------------------------- */
+
+.project-block .project4::after {
+    content: "";
+    background-image: url(../images/flower.jpg);
+    width: 65px;
+    height: 65px;
+    border: 1px solid black;
+    border-radius: 50px;
+    position: absolute;
+    top: 372px;
+    left: 42px;
+    background-size: cover;
+}
+
+.project-block .project4::before {
+    content: "";
+    border: 50px solid;
+    border-color: transparent transparent transparent #61c9f2;
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: -57px;
+    top: 355px;
+    background-size: cover
+}
+
+.project-block .project4 .arrow4::before {
+    content: "";
+    width: 70px;
+    height: 55px;
+    background-color: #61c9f2;
+    position: absolute;
+    top: 377px;
+    right: 40px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.project-block .project4 .four {
+    font-size: 45px;
+    font-weight: 100;
+    font-family: fantasy;
+    color: orangered;
+    position: absolute;
+    top: 377px;
+    right: 60px;
+}
+
+
+/* end project-block */
+
+
+/* end body style */
