@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(../style/image/mountain2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.maine-box {
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.maine-box .box {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background-color: #1c1f5e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 30px; */
+    overflow: hidden;
+}
+
+.maine-box .box:hover:before {
+    content: "";
+    position: absolute;
+    margin: -30px;
+    width: 55%;
+    height: 500px;
+    background: #bc95ef66;
+    transform: rotate( 3deg);
+    animation-name: exp;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes exp {
+    0% {
+        left: -100%;
+        top: 0;
+    }
+    100% {
+        left: 5%;
+        top: 0;
+    }
+}
+
+.maine-box .box .content {
+    padding: 30px;
+    text-align: center;
+}
+
+.maine-box .box .content h2 {
+    position: relative;
+    font-size: 1.5em;
+    color: white;
+    z-index: 2;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+.maine-box .box .content p {
+    position: relative;
+    font-size: 1em;
+    color: white;
+    line-height: 1.5;
+    z-index: 2;
+    font-weight: bolder;
+    transition: 0.5s;
+}
+
+.maine-box .box .content {
+    margin: 3px;
+    width: 90%;
+    height: 90%;
+    border: 2px solid pink;
+}
+
+.maine-box .box span:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, transparent, pink);
+    animation: animate1 2s linear infinite;
+}
+
+@keyframes animate1 {
+    0% {
+        transform: translatex(-100%);
+    }
+    100% {
+        transform: translatex(100%);
+    }
+}
+
+.maine-box .box span:nth-child(2) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent, pink);
+    animation: animate2 2s linear infinite;
+    animation-delay: 1s;
+}
+
+@keyframes animate2 {
+    0% {
+        transform: translatey(-100%);
+    }
+    100% {
+        transform: translatey(100%);
+    }
+}
+
+.maine-box .box span:nth-child(3) {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to left, transparent, pink);
+    animation: animate3 2s linear infinite;
+}
+
+@keyframes animate3 {
+    0% {
+        transform: translatex(100%);
+    }
+    100% {
+        transform: translatex(-100%);
+    }
+}
+
+.maine-box .box span:nth-child(4) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(to top, transparent, pink);
+    animation: animate4 2s linear infinite;
+    animation-delay: 1s;
+}
+
+@keyframes animate4 {
+    0% {
+        transform: translatey(100%);
+    }
+    100% {
+        transform: translatey(-100%);
+    }
+}
